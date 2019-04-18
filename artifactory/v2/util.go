@@ -9,6 +9,7 @@ func NewV2(client *client.Client) *V2 {
 	v.common.client = client
 
 	v.Security = (*SecurityService)(&v.common)
+	v.Configuration = (*ConfigurationService)(&v.common)
 
 	return v
 }

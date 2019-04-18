@@ -12,4 +12,5 @@ type V2 struct {
 	common Service
 
 	Security *SecurityService
+	Configuration *ConfigurationService
 }

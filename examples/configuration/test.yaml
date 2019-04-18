@@ -1,0 +1,6 @@
+localRepositories:
+  my-local-repo:
+    type: generic
+    description: "Hello world"
+    notes: "Hello world"
+    repoLayout: simple-default
