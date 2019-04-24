@@ -10,6 +10,7 @@ func NewV2(client *client.Client) *V2 {
 
 	v.Security = (*SecurityService)(&v.common)
 	v.Configuration = (*ConfigurationService)(&v.common)
+	v.Token = (*TokenService)(&v.common)
 
 	return v
 }

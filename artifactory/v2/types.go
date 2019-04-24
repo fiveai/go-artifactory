@@ -13,4 +13,5 @@ type V2 struct {
 
 	Security *SecurityService
 	Configuration *ConfigurationService
+	Token *TokenService
 }
